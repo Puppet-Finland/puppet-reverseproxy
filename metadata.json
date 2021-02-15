@@ -2,47 +2,56 @@
   "name": "puppetfinland-reverseproxy",
   "version": "0.1.0",
   "author": "Samuli Seppänen",
-  "summary": "",
+  "summary": "Reverse proxy wrapper that uses puppetlabs-apache",
   "license": "BSD-2-Clause",
-  "source": "",
+  "source": "https://github.com/Puppet-Finland/puppet-reverseproxy",
   "dependencies": [
-
+    {
+      "name": "puppetlabs/apache",
+      "version_requirement": ">= 5.0.0 < 6.0.0"
+    }
   ],
   "operatingsystem_support": [
     {
       "operatingsystem": "CentOS",
       "operatingsystemrelease": [
-        "7"
+        "7",
+        "8"
       ]
     },
     {
       "operatingsystem": "OracleLinux",
       "operatingsystemrelease": [
-        "7"
+        "7",
+        "8"
       ]
     },
     {
       "operatingsystem": "RedHat",
       "operatingsystemrelease": [
+        "7",
         "8"
       ]
     },
     {
       "operatingsystem": "Scientific",
       "operatingsystemrelease": [
-        "7"
+        "7",
+        "8"
       ]
     },
     {
       "operatingsystem": "Debian",
       "operatingsystemrelease": [
-        "9"
+        "9",
+        "10"
       ]
     },
     {
       "operatingsystem": "Ubuntu",
       "operatingsystemrelease": [
-        "18.04"
+        "18.04",
+        "20.04"
       ]
     }
   ],
